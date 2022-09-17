@@ -23,8 +23,8 @@ Created a formula for the requirement “buy one red plate, get the second half 
 - Each time user add/remove product to cart, total amount is updated by calling above methods.
 
 # steps to run unit tests
-1. git clone git@github.com:tohammad/product-basket-app.git
-2. cd product-basket-app
+1. git clone git@github.com:tohammad/sales-app.git
+2. cd sales-app
 3. npm i
 4. npm run test
 
