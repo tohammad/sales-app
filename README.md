@@ -18,9 +18,10 @@ the second half price”.
 Created a formula for the requirement “buy one red plate, get the second half price”.
 - Formula = product_qty * product_price -
                 (Math.floor(product_qty / 2)) * product_price / 2;
-- Created a method calculateTotal(cart, items, offers) that returns the total cost of the basket, taking into account the offer rules.
+- Created a method calculateTotal(cart, items, offers) that returns the total cost of the basket, taking into account the offer rules. Refer    
+  src\utilities\Helper.test.js for unit tests.
 - Created a method priceAfterDeliveryCharges(cartTotal, deliveryCharges) that returns the total cost of the basket, taking into account the delivery charges.
-- Each time user add/remove product to cart, total amount is updated by calling above methods.
+- Added a db.json file to render product catalogue, offers and delivery charges dynamically.
 
 # steps to run unit tests
 1. git clone git@github.com:tohammad/sales-app.git
